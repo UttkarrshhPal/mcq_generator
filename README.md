@@ -1,5 +1,5 @@
 # MCQ Generator
-
+Live : https://mcqgenerator-j9hpbiuj6ps6z72nobpuwz.streamlit.app/
 This is a Streamlit application that generates multiple-choice questions (MCQs) based on a given text or PDF file. The application uses the LangChain library to interact with the OpenAI API and generate the quiz questions.
 
 ## Features
