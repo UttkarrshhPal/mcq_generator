@@ -4,48 +4,33 @@ This is a Streamlit application that generates multiple-choice questions (MCQs) 
 
 ## Features
 
-- **Upload File**: Users can upload a PDF or text file containing the content for which they want to generate MCQs.
-- **Set MCQ Count**: Users can specify the number of MCQs they want to generate, with a range of 3 to 50.
-- **Specify Subject**: Users can enter the subject for which the MCQs are being generated.
-- **Set Complexity Level**: Users can set the complexity level of the generated questions, with the option to choose "Simple" as the default.
-- **Generate MCQs**: The application generates the requested number of MCQs based on the uploaded content and the user's input.
-- **Display MCQs**: The generated MCQs are displayed in a table format, showing the question, options, and the correct answer.
+- **File Upload**: Upload a PDF or text file with content for MCQ generation.  
+- **MCQ Count**: Choose the number of MCQs (3 to 50).  
+- **Subject Input**: Specify the subject for the MCQs.  
+- **Complexity Level**: Set the difficulty, with "Simple" as the default.  
+- **Generate MCQs**: Create MCQs based on the uploaded file and inputs.  
+- **View MCQs**: Display questions, options, and answers in a table format.  
 
 ## Installation
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/akhilesh1709/mcq-generator.git
-   cd mcq-generator
-   ```
+   git clone https://github.com/UttkarrshhPal/mcq_generator
+   cd mcq_generator
 
-2. **Create and Activate a Virtual Environment:**
+2. **Install the Required Packages:**
 
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. **Install the Required Packages:**
-
-   ```bash
    pip install -r requirements.txt
-   ```
 
 4. **Set Up Environment Variables:**
 
    Create a `.env` file in the root directory and add your OpenAI API key:
 
-   ```bash
    OPENAI_API_KEY=your-openai-api-key
-   ```
 
 5. **Run the Application:**
-
-   ```bash
+6. 
    streamlit run app.py
-   ```
 
 ## Usage
 
